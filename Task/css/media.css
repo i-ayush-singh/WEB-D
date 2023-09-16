@@ -1,0 +1,62 @@
+/* ************************** */
+/* Media Query below 752px(Landscape) */
+/* ************************** */
+
+@media (max-width: 970px) {
+    html {
+      /* font-size: 9px; */
+      /* 9px/16px= 56.25% */
+      font-size: 56.25%;
+    }
+    .boxes{
+      
+      grid-template-columns: 1fr 1fr;}
+      #first-container{
+        grid-column: 1/-1;
+      }
+    #first-container{
+      width: auto;
+    }
+    
+  }
+  
+  /* ************************** */
+  /* Media Query below 544px(Mobile) */
+  /* ************************** */
+  
+  @media (max-width: 682px) {
+    .boxes{
+      
+      grid-template-columns: 1fr;}
+      #first-container{
+        grid-column: 1/-1;
+      }
+    #first-container{
+      width: auto;
+    }
+    #second-container{
+      width: auto;
+    }
+    #third-container{
+      width: auto;
+    }
+    
+    .symbol {
+      display: block;
+  }
+
+  .v-class {
+    opacity: 0;
+}
+
+.nav-list {
+  justify-content:right;
+  flex-direction: column;
+  height: 180px;
+  box-shadow: 0px 0;
+ 
+}
+  .button{
+    margin-left: 37%;
+  }
+  }
